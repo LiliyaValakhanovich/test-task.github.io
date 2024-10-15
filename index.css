@@ -1,0 +1,309 @@
+@font-face{
+  font-family: "Montserrat";
+  src:url(./fonts/Montserrat/static/Montserrat-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight:900;
+}
+
+@font-face{
+  font-family: "Montserrat";
+  src:url(./fonts/Montserrat/static/Montserrat-ExtraBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight:800;
+}
+
+@font-face{
+  font-family: "Open Sans";
+  src:url(./fonts/Open_Sans/static/OpenSans-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face{
+  font-family: "Open Sans";
+  src:url(./fonts/Open_Sans/static/OpenSans-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face{
+  font-family: "Roboto";
+  src:url(./fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face{
+  font-family: "Roboto";
+  src:url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  
+}
+
+.month_promotions{
+  width:1150px;
+  height: 340px;
+  background: linear-gradient(to right, rgba(250,194,143), rgba(250,194,143, 0.45));
+  border-radius: 16px;
+  
+}
+
+.month_promotions__content-title{
+  width:666px;
+  height: 69px;
+  background: linear-gradient(to right, rgba(255,107,0,1), rgba(255,185,48,0.75));
+  border-bottom-right-radius: 100px;
+  border-top-right-radius:10px;
+  margin-bottom: 38px;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.month_promotions__content-option{
+  display: flex;
+  justify-content: end;
+}
+
+.content-title{
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Montserrat";
+}
+
+.discount10,
+.discount15{
+  width:245px;
+  height: 168px;
+  position: relative;
+}
+
+.discount10{
+  margin-right: 104px;
+}
+.discount15{
+  margin-right: 100px;
+}
+
+.discount_group{
+  width: 204px;
+  height: 119px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
+}
+
+.discount_number{
+  font-size: 97.3px;
+  font-weight: 900;
+  font-family: "Montserrat";
+  color:rgba(45,64,81);
+  line-height: 118.61px;
+}
+
+.percent{
+  font-size: 66px;
+  font-weight: 900;
+  font-family: "Montserrat";
+}
+
+.num{
+  position: absolute;
+  top:102px;
+  left: 22px;
+}
+
+.discount_title{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 12px;
+  color:rgba(45,64,81);
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+.discount_condition{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 16px;
+  color:rgba(255,120,16);
+  text-transform: uppercase;
+  width: 222px;
+}
+
+.discount_condition-button{
+  border-radius: 56px;
+  background-color: #FFFFFF;
+  color: rgba(45,64,81);
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  display: inline;
+  padding: 3px 14px;
+}
+
+.discount-image{
+  position: absolute;
+  top:-21px;
+  left: 212px;
+}
+
+.month_promotions__decoration{
+  width: 1150px;
+  height: 58px;
+  background: radial-gradient(rgba(255,112,3,0.55), rgba(255,167,37,0));
+  position: absolute;
+  top: 340px;
+  z-index: -1;
+  border-radius: 50%;
+ 
+}
+
+.getting_discount{
+  width:1150px;
+  height: 260px;
+  margin-top: 53px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.discount-content-title{
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 32px;
+  color:rgb(255,105,13);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.discount-content-description{
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color:rgb(48,57,63);
+}
+
+.content-conteiner_button{
+  display: flex;
+  gap:24px;
+  margin-top: 24px;
+}
+
+.button-oil{
+  width: 246px;
+  height: 54px;
+  background-color: rgb(255,111,0);
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.button-filter{
+  width: 246px;
+  height: 54px;
+  border-radius: 8px;
+  border: 1px solid rgb(255,111,0);
+  color:rgb(255,111,0);
+  background-color: #FFFFFF;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.getting_discount-image{
+  width: 389px;
+  height: 260px;
+}
+
+.conditions_discount{
+  width: 1150px;
+  height: 169px;
+  margin-bottom: 24px;
+}
+
+.conditions_discount-title{
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 32px;
+  color:rgb(255,105,13);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.conditions_discount-list{
+  
+  padding: 0;
+}
+
+.discount-list-item{
+  list-style: none;
+  background: url(./images/check.png) no-repeat 0 50%;
+  padding-left: 27px;
+  margin-bottom: 8px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.exploitation{
+  width: 1150px;
+  height: 432px;
+  margin-bottom: 24px;
+  background: linear-gradient(to right, rgba(217,217,217,1), rgba(255,255,255,1));
+  border-radius: 16px;
+  display: flex;
+  gap:16px;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+.exploitation_content-title{
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(0,10,18,0.87);
+  margin-bottom: 24px;
+}
+
+.exploitation_content-list{
+  padding: 0;
+}
+
+.exploitation-list-item{
+  list-style: none;
+  background: url(./images/vector.png) no-repeat 0 50%;
+  padding-left: 20.7px;
+  margin-bottom: 8px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:rgba(0,10,18,0.87);
+}
+
+.exploitation_image{
+  width: 310px;
+  height: 432px;
+}
