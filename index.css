@@ -256,11 +256,10 @@
 
 @media screen and (max-width:320px){
   .getting_discount{
-    width:320px;
+    width:298px;
     height:auto;
     margin-top: 24px;
     padding-left: 5px;
-    padding-right: 5px;
   }
   .discount-content-title{
     font-size: 20px;
@@ -365,8 +364,9 @@
 
 @media screen and (max-width:320px){
   .conditions_discount{
-    width: 303px;
+    width: 298px;
     height: auto;
+    padding-left: 5px;
   }
   .conditions_discount-title{
     font-size: 20px;
@@ -390,10 +390,10 @@
 }
 @media screen and (max-width:320px){
   .exploitation{
-    width: 303px;
+    width: 298px;
     height: auto;
     display: block;
-    padding-left: 0;
+    padding-left: 5px;
   }
   .exploitation_content{
     width: 295px;
@@ -460,8 +460,9 @@
 
 @media screen and (max-width:320px){
   .oil_selection{
-    width: 303px;
+    width: 298px;
     height: auto;
+    padding-left: 5px;
   }
   .oil_selection-title{
     font-size: 20px;
@@ -518,6 +519,7 @@
   }
   .line{
     width: 303px;
+    box-sizing: border-box;
   }
 }
 
@@ -567,7 +569,7 @@
 
 @media screen and (max-width:320px){
   .contacts{
-    width: 320px;
+    width: 303px;
     height: auto;
     flex-direction: column;
     align-items: center;
