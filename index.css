@@ -60,6 +60,16 @@
   
 }
 
+@media screen and (max-width:320px){
+  .content{
+    align-items: start;
+  }
+  .month_promotions{
+    width:303px;
+    height: auto;
+  }
+}
+
 .month_promotions__content-title{
   width:666px;
   height: 69px;
@@ -73,9 +83,23 @@
   align-items: center;
 }
 
+@media screen and (max-width:320px){
+  .month_promotions__content-title{
+    width:270px;
+    height: 50px;
+  }
+}
+
 .month_promotions__content-option{
   display: flex;
   justify-content: end;
+}
+
+@media screen and (max-width:320px){
+  .month_promotions__content-option{
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .content-title{
@@ -86,6 +110,12 @@
   font-family: "Montserrat";
 }
 
+@media screen and (max-width:320px){
+  .content-title{
+    font-size: 24px;
+  }
+}
+
 .discount10,
 .discount15{
   width:245px;
@@ -93,11 +123,25 @@
   position: relative;
 }
 
+@media screen and (max-width:320px){
+  .discount10,
+  .discount15{
+    width:195px;
+  }
+}
+
 .discount10{
   margin-right: 104px;
 }
 .discount15{
   margin-right: 100px;
+}
+
+@media screen and (max-width:320px){
+  .discount10,
+  .discount15{
+    margin-right:0;
+  }
 }
 
 .discount_group{
@@ -163,6 +207,20 @@
   left: 212px;
 }
 
+@media screen and (max-width:320px){
+  .content-image{
+    width:310px;
+  }
+  .image-oils{
+    width:303px;
+  }
+  .discount-image{
+    width: 90px;
+    height: 90px;
+    left: 200px;
+  }
+}
+
 .month_promotions__decoration{
   width: 1150px;
   height: 58px;
@@ -171,7 +229,12 @@
   top: 340px;
   z-index: -1;
   border-radius: 50%;
- 
+}
+
+@media screen and (max-width:320px){
+  .month_promotions__decoration{
+    display: none;
+  }
 }
 
 .getting_discount{
@@ -191,6 +254,20 @@
   margin-bottom: 8px;
 }
 
+@media screen and (max-width:320px){
+  .getting_discount{
+    width:320px;
+    height:auto;
+    margin-top: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .discount-content-title{
+    font-size: 20px;
+    width:310px;
+  }
+}
+
 .discount-content-description{
   font-family: "Open Sans";
   font-weight: 400;
@@ -199,10 +276,25 @@
   color:rgb(48,57,63);
 }
 
+@media screen and (max-width:320px){
+  .discount-content-description{
+    width:305px;
+    height:auto;
+    font-size: 12px;
+  }
+}
+
 .content-conteiner_button{
   display: flex;
   gap:24px;
   margin-top: 24px;
+}
+
+@media screen and (max-width:320px){
+  .content-conteiner_button{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .button-oil{
@@ -236,6 +328,12 @@
   height: 260px;
 }
 
+@media screen and (max-width:320px){
+  .getting_discount-image{
+    display: none;
+  }
+}
+
 .conditions_discount{
   width: 1150px;
   height: 169px;
@@ -252,7 +350,6 @@
 }
 
 .conditions_discount-list{
-  
   padding: 0;
 }
 
@@ -266,6 +363,20 @@
   font-size: 18px;
 }
 
+@media screen and (max-width:320px){
+  .conditions_discount{
+    width: 303px;
+    height: auto;
+  }
+  .conditions_discount-title{
+    font-size: 20px;
+  }
+  .discount-list-item{
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+}
+
 .exploitation{
   width: 1150px;
   height: 432px;
@@ -276,6 +387,17 @@
   gap:16px;
   padding-top: 32px;
   padding-left: 32px;
+}
+@media screen and (max-width:320px){
+  .exploitation{
+    width: 303px;
+    height: auto;
+    display: block;
+    padding-left: 0;
+  }
+  .exploitation_content{
+    width: 295px;
+  }
 }
 
 .exploitation_content-title{
@@ -308,6 +430,19 @@
   height: 432px;
 }
 
+@media screen and (max-width:320px){
+  .exploitation_content-title{
+    width: 303px;
+  }
+  .exploitation-list-item{
+    font-size: 12px;
+    width: 280px;
+  }
+  .exploitation_image{
+    display: none;
+  }
+}
+
 .oil_selection{
   width: 1150px;
   height: 110px;
@@ -323,6 +458,17 @@
   margin-bottom: 8px;
 }
 
+@media screen and (max-width:320px){
+  .oil_selection{
+    width: 303px;
+    height: auto;
+  }
+  .oil_selection-title{
+    font-size: 20px;
+    width: 290px;
+  }
+}
+
 .oil_selection-conteiner{
   display: flex;
   justify-content: space-between;
@@ -335,6 +481,16 @@
   font-size: 18px;
   line-height: 27px;
   color: rgb(48,57,36);
+}
+@media screen and (max-width:320px){
+  .oil_selection-conteiner{
+    flex-direction: column;
+    gap: 12px;
+  }
+  .oil_selection-description{
+    font-size: 12px;
+    width: 303px;
+  }
 }
 
 .button-choose{
@@ -353,6 +509,16 @@
 .line{
   width: 1150px;
   margin-bottom: 24px;
+}
+
+@media screen and (max-width:320px){
+  .button-choose{
+    width:195px;
+    height: 45px;
+  }
+  .line{
+    width: 303px;
+  }
 }
 
 .contacts{
@@ -397,4 +563,16 @@
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
+}
+
+@media screen and (max-width:320px){
+  .contacts{
+    width: 320px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts_shop_address{
+    width: 165px;
+  }
 }
